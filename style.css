@@ -1,0 +1,22 @@
+body, body * {
+    display: flex;
+}
+.container {
+    flex-direction: column;
+    border: 1px solid black;
+    width: 900px;
+    height: 900px;
+}
+.vertical {
+    flex-direction: row;
+}
+
+.horizontal {
+    flex-direction: column;
+}
+
+button {
+    align-self: center;
+    padding: 20px 50px;
+    font-size: 20px;
+}
