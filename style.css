@@ -1,14 +1,17 @@
 body, body * {
     display: flex;
 }
+
+body {
+    flex-direction: column;
+    width: 900px;
+}
+
 .container {
     flex-direction: column;
     border: 1px solid black;
     width: 900px;
     height: 900px;
-}
-.vertical {
-    flex-direction: row;
 }
 
 .horizontal {
@@ -18,5 +21,6 @@ body, body * {
 button {
     align-self: center;
     padding: 20px 50px;
+    margin: 20px;
     font-size: 20px;
 }
